@@ -9,7 +9,7 @@ export function createUrlGroup(name, description, isDefault=false) {
     }
     if(isDefault){
         group.urls.push(
-            createUrl("Url Manager 3.0", "https://gouravchanalia.github.io/react-url-manager/", true)
+            createUrl("Url Manager 3.0", "https://github.com/GouravChanalia/react-url-manager", true)
         )
     }
     return group;
